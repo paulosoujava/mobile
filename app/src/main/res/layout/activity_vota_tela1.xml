@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nome"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nome"
+        android:id="@+id/nome"
+        />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <NumberPicker
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/npNota1" />
+        <NumberPicker
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/npNota2" />
+        <NumberPicker
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/npNota3" />
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="next"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:drawableRight="@android:drawable/ic_menu_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/concluir"/>
+
+
+
+
+
+</LinearLayout>

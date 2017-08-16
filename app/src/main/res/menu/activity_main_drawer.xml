@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aprovado"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Aprovado" />
+        <item
+            android:id="@+id/ciclo_de_vida"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Ciclo de Vida Activity" />
+        <item
+            android:id="@+id/telasApp"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Autonomia Total" />
+    </group>
+
+    <item android:title="Exercicios para fazer">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Media App " />
+            <item
+                android:id="@+id/juros"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Preco Justo" />
+            <item
+                android:id="@+id/nav_autonomia"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Atunomia Total" />
+            <item
+                android:id="@+id/nav_calc_hist"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Calc. Historico" />
+            <item
+                android:id="@+id/nav_precoMais_justo"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Preço Mais Justo" />
+            <item
+                android:id="@+id/nav_votar"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Votar" />
+            <item
+                android:id="@+id/nav_notas"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Medias" />
+
+
+        </menu>
+    </item>
+
+</menu>

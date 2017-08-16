@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Faculdade</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nome">Nome</string>
+    <string name="idade">Idade</string>
+    <string name="hint_nome">Digite seu nome</string>
+    <string name="concluir">concluir</string>
+    <string name="mostrar">mostrando informacoes</string>
+    <string name="podeVotar">pode votar?</string>
+    <string name="sim">sim</string>
+    <string name="nao">nao</string>
+    <string name="retornar">Retornar</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="txt">Texto</string>
+
+    <string name="titulo">Aprovado</string>
+    <string name="nome_aluno">Nome do aluno</string>
+    <string name="hint_nome_aluno">Digite seu nome</string>
+    <string name="nota1">Nota 1</string>
+    <string name="hint_nota1">Digite a primeira nota</string>
+    <string name="nota2">Nota 2</string>
+    <string name="hint_nota2">Digita a segunda nota</string>
+    <string name="calcular">Calcular</string>
+    <string name="limpar_dados">Limpar dados</string>
+
+    <string name="aluno">Aluno</string>
+    <string name="media">Média</string>
+    <string name="situacao">Situação</string>
+    <string name="situacao_ap">Aprovado</string>
+    <string name="situacao_rp">Reprovado</string>
+    <string name="nomeProduto">nome do produto</string>
+    <string name="valor">valor</string>
+    <string name="parcela">Parcela</string>
+    <string name="juros">Juros</string>
+    <string name="hint_parcela">Parcela</string>
+    <string name="hint_juro">Juro</string>
+    <string name="precoJusto">Preço Justo</string>
+    <string name="autonomiaTotal">Autonomia Total</string>
+    <string name="nomeCarro">Nome do Carro</string>
+    <string name="kmPercorrido">Km Percorrido</string>
+    <string name="qtdCombustivel">Quantidade de Combustivel</string>
+    <string name="calcHistorico">Calculadora com Histórico</string>
+    <string name="num1">Num. 1</string>
+    <string name="num2">Num. 2</string>
+    <string name="com_entrada">Com Entrada</string>
+</resources>

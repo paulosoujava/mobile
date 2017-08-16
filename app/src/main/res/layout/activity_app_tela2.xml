@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="senac.com.br.facudade.activity.AppTela2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Texto 1"
+        android:gravity="center"
+        android:background="#FFEE00"
+        android:textColor="#000099"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Texto2"
+        android:gravity="center"
+        android:background="#ff0026"
+        android:textColor="#000029"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Texto3"
+        android:background="#AAFE00"
+        android:textColor="#000039"
+        android:gravity="center"
+        android:textSize="18sp"/>
+    <Button
+        android:text="Next"
+        android:onClick="next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
